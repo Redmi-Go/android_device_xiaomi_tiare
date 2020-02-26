@@ -1,3 +1,6 @@
+# Fastbootd
+ro.fastbootd.available=true
+
 # Xiaomi tiare - Camera
 persist.vendor.camera.CDS=off
 persist.vendor.camera.video.CDS=off
