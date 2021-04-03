@@ -1,0 +1,2 @@
+# DT2W
+genfscon proc /sys/dev/dt2w u:object_r:dt2w_ctrl:s0
