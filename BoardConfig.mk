@@ -42,5 +42,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.recovery.qcom
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
+# Sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
 # Inherit from the proprietary version
 include vendor/xiaomi/tiare/BoardConfigVendor.mk
