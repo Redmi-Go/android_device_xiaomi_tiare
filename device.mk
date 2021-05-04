@@ -9,6 +9,17 @@ $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, build/make/target/product/go_defaults_512.mk)
 
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
+# Properties
+include $(LOCAL_PATH)/properties.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom
