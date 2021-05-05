@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libdng_sdk.vendor
+    libdng_sdk.vendor \
+    libshims_gui
 
 # Input
 PRODUCT_COPY_FILES += \
