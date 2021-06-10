@@ -7,3 +7,7 @@
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sf.lcd_density=267
+
+# Cipher Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.cipher.maintainer=TechyMinati

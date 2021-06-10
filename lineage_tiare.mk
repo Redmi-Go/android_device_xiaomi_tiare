@@ -31,3 +31,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.13.0.OCLMIXM:user/release-keys"
+# Official
+CIPHER_OFFICIAL := true
+# Face UNlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
