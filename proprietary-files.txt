@@ -1,4 +1,4 @@
-# ACDB - from tiare 8.1.0 OPM1.171019.026 V10.2.13.0.OCLMIXM
+# ACDB - from tiare-user 8.1.0 OPM1.171019.026 V10.2.19.0.OCLINXM release-keys
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
@@ -46,7 +46,7 @@ vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
-# Camera - from tiare 8.1.0 OPM1.171019.026 V10.2.13.0.OCLMIXM
+# Camera - from tiare-user 8.1.0 OPM1.171019.026 V10.2.19.0.OCLINXM release-keys
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 vendor/bin/mm-qcamera-daemon
 vendor/lib/hw/camera.msm8937.so
@@ -696,7 +696,7 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libts_detected_face_hal.so
 vendor/lib64/libts_face_beautify_hal.so
 
-# Camera configs - from tiare 8.1.0 OPM1.171019.026 V10.2.13.0.OCLMIXM
+# Camera configs - from tiare-user 8.1.0 OPM1.171019.026 V10.2.19.0.OCLINXM release-keys
 vendor/etc/camera/gc8034_sunny_india_chromatix.xml
 vendor/etc/camera/hi556_sunny_chromatix.xml
 vendor/etc/camera/s5k5e8_ofilm_india_chromatix.xml
@@ -715,7 +715,7 @@ vendor/etc/camera/csidtg_chromatix.xml
 vendor/etc/camera/s5k4h7_ofilm_india_chromatix.xml
 vendor/etc/camera/s5k5e8_ofilm_riva_chromatix.xml
 
-# Firmwares - from tiare 8.1.0 OPM1.171019.026 V10.2.13.0.OCLMIXM
+# Firmwares - from tiare-user 8.1.0 OPM1.171019.026 V10.2.19.0.OCLINXM release-keys
 vendor/firmware/aw87329_abrcv.bin
 vendor/firmware/aw87329_drcv.bin
 vendor/firmware/aw87329_kspk.bin
