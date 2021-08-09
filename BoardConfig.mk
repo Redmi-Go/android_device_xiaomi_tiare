@@ -43,7 +43,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-05-05
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
