@@ -1,3 +1,5 @@
+
+
 #
 # Copyright (C) 2021 The LineageOS Project
 #
@@ -27,7 +29,7 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="tiare-user 8.1.0 OPM1.171019.026 V10.2.13.0.OCLMIXM release-keys"
+    PRIVATE_BUILD_DESC="tiare-user 8.1.0 OPM1.171019.026 V10.2.19.0.OCLINXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.13.0.OCLMIXM:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/tiare_in/tiare:8.1.0/OPM1.171019.026/V10.2.19.0.OCLINXM:user/release-keys"
