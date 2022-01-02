@@ -40,3 +40,7 @@ def FullOTA_InstallBegin(info):
   info.script.AppendExtra('set_metadata("/tmp/flash_super_dummy.sh", "uid", 0, "gid", 0, "mode", 0755);')
   info.script.AppendExtra('run_program("/tmp/flash_super_dummy.sh");')
   return
+
+def OTA_InstallEnd(info):
+  
+  return
