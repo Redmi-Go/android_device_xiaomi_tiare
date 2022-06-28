@@ -9,12 +9,9 @@ DEVICE_PATH := device/xiaomi/tiare
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tiare
-TARGET_RECOVERY_DEVICE_MODULES := libinit_tiare
-
 # Kernel
 TARGET_KERNEL_CONFIG := tiare_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG := tiare_recovery_defconfig
 
 # Partitions
 TARGET_COPY_OUT_VENDOR := vendor
@@ -38,9 +35,6 @@ BOARD_VENDORIMAGE_SQUASHFS_COMPRESSOR := lz4
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"

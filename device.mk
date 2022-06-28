@@ -4,8 +4,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Device
-DEVICE := tiare
+# ConsumerIR
+TARGET_HAS_NO_CONSUMERIR := true
+
+# Gatekeeper
+TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
+
+# Keymaster
+TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 
 # Inherit from msm8937-common
 $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
@@ -35,7 +41,6 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.qcom \
     init.xiaomi.device.rc
 
 # Sensors
